@@ -6,7 +6,6 @@ $url = "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.zip"
 $zip = "$documents\pc.zip"
 
 New-Item -ItemType Directory $documents
-
 Invoke-WebRequest -Uri $url -OutFile $zip
 Expand-Archive -Path $zip -DestinationPath $documents -Force
 Remove-Item $zip
