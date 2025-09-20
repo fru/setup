@@ -3,8 +3,10 @@
 
 $desktop = [System.Environment]::GetFolderPath('Desktop')
 $url = "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.zip"
-$zip = Join-Path -Path $desktop -ChildPath "pc.zip"
+$zip = "$desktop\pc.zip"
 
 Invoke-WebRequest -Uri $url -OutFile $zip
 Expand-Archive -Path $zip -DestinationPath $desktop -Force
 Remove-Item $zip
+
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-1-minimal.ps1"
