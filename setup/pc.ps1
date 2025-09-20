@@ -1,7 +1,7 @@
 # -- run in powershell using --
 # iex (irm "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.ps1")
 
-$documents = "C:\Setup"
+$documents = [System.Environment]::GetFolderPath('mydocuments')
 $url = "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.zip"
 $zip = "$documents\pc.zip"
 
