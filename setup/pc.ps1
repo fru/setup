@@ -1,5 +1,5 @@
-:: -- run in powershell using --
-:: iex (irm "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.ps1")
+# -- run in powershell using --
+# iex (irm "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.ps1")
 
 $desktop = [System.Environment]::GetFolderPath('Desktop')
 $url = "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.zip"
