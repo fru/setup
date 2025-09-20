@@ -9,6 +9,6 @@ Invoke-WebRequest -Uri $url -OutFile $zip
 Expand-Archive -Path $zip -DestinationPath $desktop -Force
 Remove-Item $zip
 
-Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-1-minimal.ps1"
-Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-2-bloat.ps1"
-Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-3-install.ps1"
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-1-minimal.ps1" -Wait
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-2-bloat.ps1" -Wait
+Start-Process powershell.exe -Verb RunAs -ArgumentList "-File $desktop\step-3-install.ps1" -Wait
