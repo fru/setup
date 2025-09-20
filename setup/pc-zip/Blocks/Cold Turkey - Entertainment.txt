@@ -6,13 +6,16 @@
 *stream*
 *watch*
 *vidsrc*
+*/Amazon-Video/*
+
+nebula.tv
+netflix.com
+youtube.com
+audible.de
 
 fmhy.net
 lookmovie2.to
-nebula.tv
-netflix.com
 rivestream.org
 vidbox.com
 vidbox.to
 watch.streamflix.one
-youtube.com
