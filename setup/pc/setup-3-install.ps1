@@ -36,6 +36,7 @@ winget install --id Gyan.FFmpeg
 winget install --id Valve.Steam
 winget install --id VideoLAN.VLC
 winget install --id OpenAudible.OpenAudible
+winget install --id TIDALMusicAS.TIDAL
 
 # Other
 
