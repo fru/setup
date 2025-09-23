@@ -1,5 +1,7 @@
 # Apps
 
+- Lock Screen: https://raw.githubusercontent.com/fru/infrastructure/main/setup/mobile/lockscreen.jpg
+
 ## Basics
 - Lock Me Out
 - Night Shift (Dimm Phone Screen)
