@@ -17,4 +17,4 @@ winget install --id Google.Chrome
 
 # Show Instructions
 
-& "C:\Program Files\Zen Browser\zen.exe" "https://htmlpreview.github.io/?https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.html"
+& "C:\Program Files\Zen Browser\zen.exe" "https://htmlpreview.github.io/?https://raw.githubusercontent.com/fru/setup/main/pc.html"
