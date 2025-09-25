@@ -1,8 +1,8 @@
 # -- run in powershell using --
-# iex (irm "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.ps1")
+# iex (irm "https://raw.githubusercontent.com/fru/setup/main/pc.ps1")
 
 $documents = [System.Environment]::GetFolderPath('mydocuments')
-$url = "https://raw.githubusercontent.com/fru/infrastructure/main/setup/pc.zip"
+$url = "https://raw.githubusercontent.com/fru/setup/main/pc.zip"
 $zip = "$documents\pc.zip"
 
 Invoke-WebRequest -Uri $url -OutFile $zip
