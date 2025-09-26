@@ -70,12 +70,13 @@ Every Lock
 - Group: Sometimes
 
 ### Lock: Sleep with break
-11:20 PM - 5:00 AM
+10:20 PM - 5:00 AM
 - Allow pause on demand 12min every 36min
 - Block: Chrome
 
 ### Lock: Sleep strict
-11:20 PM - 5:00 AM
+10:20 PM - 5:00 AM
+- Lock depending on location: DUS + Max Radius
 - Group: Sometimes
 
 
