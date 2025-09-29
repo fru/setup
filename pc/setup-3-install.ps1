@@ -30,6 +30,7 @@ winget install --id Inkscape.Inkscape
 winget install --id M2Team.NanaZip
 winget install --id Cyanfish.NAPS2
 winget install --id Gyan.FFmpeg
+winget install --id PDFgear.PDFgear
 
 # Entertainment
 
