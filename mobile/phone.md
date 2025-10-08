@@ -3,6 +3,7 @@
 - Lock Screen: https://raw.githubusercontent.com/fru/infrastructure/main/setup/mobile/lockscreen.jpg
 
 ## Basics
+
 - Lock Me Out
 - Night Shift (Dimm Phone Screen)
 - Samsung Mobile Print
@@ -12,6 +13,7 @@
 - Mindfulness Bell
 
 ## Office
+
 - Adobe Acrobat
 - Google Docs
 - Google Sheets
@@ -19,6 +21,7 @@
 - DriveSync
 
 ## Outside
+
 - Eversports
 - Komoot
 - Outdooractive
@@ -26,17 +29,20 @@
 - UVIMate
 
 ## Habits
+
 - AnkiPro
 - Breathe
 - Memorize By Heart
 - SpanishDictionary
 
 ## Dr
+
 - Doctolib
 - SnoreLab
 - TeleClinic
 
 ## Devices
+
 - Bambu Handy
 - Find Hub
 - Imou Life
@@ -47,6 +53,7 @@
 - Withings
 
 ## Dev
+
 - ChatGPT
 - Expo Go
 - Gemini
@@ -56,15 +63,18 @@
 - SimpleEditorFree
 
 ## Dating
+
 - Badoo
 - Bumble
 - Tinder
 
 ## Data
+
 - Smart Recorder
-- Samsung Galery 
+- Samsung Galery
 
 ## Transport
+
 - DB Navigator
 - Google Maps
 - mo.pla
@@ -72,6 +82,7 @@
 - SoFlow
 
 ## Listen
+
 - Audible
 - CloudBeats
 - Listen Audiobook Player
@@ -79,6 +90,7 @@
 - TIDAL
 
 ## Finance
+
 - Consors Bank
 - DKB
 - Finanzguru
@@ -86,6 +98,7 @@
 - Wallet
 
 ## Work
+
 - Chrome
 - Google Drive
 - Keep Notes
@@ -95,6 +108,7 @@
 - Todoist
 
 ## Messages
+
 - Google Contacts
 - Gmail
 - Messages
@@ -103,6 +117,7 @@
 - WhatsApp
 
 ## Other
+
 - Bitwarden
 - Garmin Connect
 - Garmin Connect IQ
