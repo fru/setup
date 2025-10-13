@@ -25,7 +25,6 @@ powershell -command @"
         -ShowHiddenFolders ``
         -ShowKnownFileExt ``
         -HideDupliDrive ``
-        -EnableDarkMode ``
         -DisableTransparency ``
         -DisableAnimations ``
         -CombineTaskbarAlways ``
