@@ -4,7 +4,6 @@ powershell -command @"
         -RunDefaultsLite ``
         -RunSavedSettings ``
         -RemoveApps ``
-        -RemoveAppsCustom ``
         -RemoveGamingApps ``
         -RemoveCommApps ``
         -RemoveHPApps ``
@@ -63,3 +62,4 @@ powershell -command @"
 "@
 
 powershell -command "& ([scriptblock]::Create((irm 'https://win11debloat.raphi.re'))) -RunAppConfigurator"
+powershell -command "& ([scriptblock]::Create((irm 'https://win11debloat.raphi.re'))) -RemoveAppsCustom"
