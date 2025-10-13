@@ -1,67 +1,66 @@
 powershell -command @"
-    & ([scriptblock]::Create((irm 'https://win11debloat.raphi.re')))
-        -RunDefaults
-        -RunDefaultsLite
-        -RunSavedSettings
-        -RemoveApps
-        -RemoveAppsCustom
-        -RemoveGamingApps
-        -RemoveCommApps
-        -RemoveHPApps
-        -RemoveW11Outlook
-        -ForceRemoveEdge
-        -DisableDVR
-        -DisableTelemetry
-        -DisableFastStartup
-        -DisableModernStandbyNetworking
-        -DisableBingSearches -DisableBing
-        -DisableDesktopSpotlight
-        -DisableLockscrTips -DisableLockscreenTips
-        -DisableWindowsSuggestions
-        -DisableSuggestions
-        -DisableEdgeAds
-        -DisableSettings365Ads
-        -DisableSettingsHome
-        -ShowHiddenFolders
-        -ShowKnownFileExt
-        -HideDupliDrive
-        -EnableDarkMode
-        -DisableTransparency
-        -DisableAnimations
-        -TaskbarAlignLeft
-        -CombineTaskbarAlways
-        -CombineMMTaskbarAlways
-        -MMTaskbarModeActive
-        -HideSearchTb
-        -HideTaskview
-        -DisableStartRecommended
-        -DisableStartPhoneLink
-        -DisableCopilot
-        -DisableRecall
-        -DisableClickToDo
-        -DisablePaintAI
-        -DisableNotepadAI
-        -DisableEdgeAI
-        -DisableWidgets
-        -DisableChat
-        -EnableEndTask
-        -EnableLastActiveClick
-        -ClearStartAllUsers
-        -RevertContextMenu
-        -DisableMouseAcceleration
-        -DisableStickyKeys
-        -HideHome
-        -HideGallery
-        -ExplorerToHome
-        -ExplorerToThisPC
-        -ExplorerToDownloads
-        -ExplorerToOneDrive
-        -DisableOnedrive
-        -Disable3dObjects
-        -DisableMusic
-        -DisableIncludeInLibrary
-        -DisableGiveAccessTo
-        -DisableShare  
+    & ([scriptblock]::Create((irm 'https://win11debloat.raphi.re'))) ``
+        -RunDefaults ``
+        -RunDefaultsLite ``
+        -RunSavedSettings ``
+        -RemoveApps ``
+        -RemoveAppsCustom ``
+        -RemoveGamingApps ``
+        -RemoveCommApps ``
+        -RemoveHPApps ``
+        -RemoveW11Outlook ``
+        -ForceRemoveEdge ``
+        -DisableDVR ``
+        -DisableTelemetry ``
+        -DisableFastStartup ``
+        -DisableModernStandbyNetworking ``
+        -DisableBingSearches -DisableBing ``
+        -DisableDesktopSpotlight ``
+        -DisableLockscrTips -DisableLockscreenTips ``
+        -DisableWindowsSuggestions ``
+        -DisableSuggestions ``
+        -DisableEdgeAds ``
+        -DisableSettings365Ads ``
+        -DisableSettingsHome ``
+        -ShowHiddenFolders ``
+        -ShowKnownFileExt ``
+        -HideDupliDrive ``
+        -EnableDarkMode ``
+        -DisableTransparency ``
+        -DisableAnimations ``
+        -CombineTaskbarAlways ``
+        -CombineMMTaskbarAlways ``
+        -MMTaskbarModeActive ``
+        -HideSearchTb ``
+        -HideTaskview ``
+        -DisableStartRecommended ``
+        -DisableStartPhoneLink ``
+        -DisableCopilot ``
+        -DisableRecall ``
+        -DisableClickToDo ``
+        -DisablePaintAI ``
+        -DisableNotepadAI ``
+        -DisableEdgeAI ``
+        -DisableWidgets ``
+        -DisableChat ``
+        -EnableEndTask ``
+        -EnableLastActiveClick ``
+        -ClearStartAllUsers ``
+        -RevertContextMenu ``
+        -DisableMouseAcceleration ``
+        -DisableStickyKeys ``
+        -HideHome ``
+        -HideGallery ``
+        -ExplorerToHome ``
+        -ExplorerToThisPC ``
+        -ExplorerToDownloads ``
+        -ExplorerToOneDrive ``
+        -DisableOnedrive ``
+        -Disable3dObjects ``
+        -DisableMusic ``
+        -DisableIncludeInLibrary ``
+        -DisableGiveAccessTo ``
+        -DisableShare
 "@
 
 powershell -command "& ([scriptblock]::Create((irm 'https://win11debloat.raphi.re'))) -RunAppConfigurator"
