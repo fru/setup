@@ -40,8 +40,8 @@
 - watch.streamflix.one
 - vidsrc
 - bflix.sh
-- www.primewire.mov
-- www.cineby.gd
+- primewire.mov
+- cineby.gd
 - xprime.tv
 - cinegram.net
 - rgshows.ru
