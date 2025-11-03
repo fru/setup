@@ -39,6 +39,14 @@
 - vidbox.to
 - watch.streamflix.one
 - vidsrc
+- bflix.sh
+- www.primewire.mov
+- www.cineby.gd
+- xprime.tv
+- cinegram.net
+- rgshows.ru
+
+
 
 ## Regular Lockouts
 
