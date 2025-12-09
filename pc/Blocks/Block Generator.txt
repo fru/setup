@@ -1,0 +1,33 @@
+// GO TO https://fmhy.net/video AN RUN
+
+var links = document.querySelectorAll("main li a");
+var uniqueDomains = new Set();
+links.forEach(link => {
+  const domain = link.hostname;
+  if (domain) {
+    uniqueDomains.add(domain);
+  }
+});
+
+uniqueDomains.delete('github.com')
+uniqueDomains.delete('t.me')
+uniqueDomains.delete('discord.gg')
+uniqueDomains.delete('discord.com')
+uniqueDomains.delete('youtube.com')
+uniqueDomains.delete('www.youtube.com')
+uniqueDomains.delete('amazon.com')
+uniqueDomains.delete('www.amazon.com')
+uniqueDomains.delete('addons.mozilla.org')
+uniqueDomains.delete('archive.org')
+uniqueDomains.delete('www.imdb.com')
+uniqueDomains.delete('www.reddit.com')
+uniqueDomains.delete('redd.it')
+uniqueDomains.delete('x.com')
+uniqueDomains.delete('discord.com')
+
+console.log(Array.from(uniqueDomains).join('\n'))
+
+
+
+
+
