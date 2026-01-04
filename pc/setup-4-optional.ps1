@@ -11,7 +11,7 @@ winget install --id Google.Chrome
 
 winget install --id Notepad++.Notepad++
 winget install --id TheDocumentFoundation.LibreOffice
-winget install --id GIMP.GIMP
+winget install --id GIMP.GIMP.3
 winget install --id Inkscape.Inkscape
 
 # Utilities
