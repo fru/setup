@@ -24,10 +24,8 @@ uniqueDomains.delete('www.reddit.com')
 uniqueDomains.delete('redd.it')
 uniqueDomains.delete('x.com')
 uniqueDomains.delete('discord.com')
+uniqueDomains.delete('docs.google.com')
+uniqueDomains.delete('play.google.com')
+
 
 console.log(Array.from(uniqueDomains).join('\n'))
-
-
-
-
-
