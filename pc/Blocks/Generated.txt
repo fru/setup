@@ -561,8 +561,6 @@ streamfireapp.tv
 smarttubeapp.github.io
 xdaforums.com
 www.androidtv-guide.com
-docs.google.com
-play.google.com
 vegamovies.gripe
 moviesflix.ad
 telegram.dog
